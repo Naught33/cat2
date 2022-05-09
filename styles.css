@@ -1,0 +1,65 @@
+.navs{
+    padding: 40px;
+    background-color: aqua;
+}
+.title{
+    background-color: black;
+    color: white;
+}
+.contacts{
+    background: black;
+}
+#list2{
+    color: white;
+    list-style-type: none;
+}
+.nav2{
+
+}
+.nav3{
+    list-style-type: none;
+    padding: 20px;
+    background: black;
+
+}
+.bottomnavs{
+    background-color: aqua;
+    background: aqua;
+    padding: 40px;
+    text-align: center;
+    align-content: center;
+    alignment: center;
+    text-decoration-color: aqua;
+}
+.images{
+    padding: 40px;
+}
+.fom{
+    float: none;
+    padding: 15px;
+}
+.fom{
+    max-width: 700px;
+    width: 500px;
+    background: aqua;
+    border-radius: 5px;
+}
+.clientdtails{
+    display: flex;
+    margin-bottom: 5px;
+    display: block;
+}
+.clientdtails input{
+    height: 45px;
+    width: 100px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+input{
+    border-radius: 5px;
+    alignment: left;
+    margin: 15px;
+    size: 30px;
+    width: 45px;
+}

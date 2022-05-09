@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="for%20all.css">
+    <style>
+        label{
+            padding: 2px;
+            margin: 10px;
+        }
+        input{
+            color: black;
+            background: white;
+        }
+
+        body{
+            background-size: cover;
+        }
+        a{
+            color: white;
+            float: left;
+            margin: 10px;
+            text-decoration-color: black;
+        }
+        li{
+            float: left;
+            list-style-type: none;
+            padding: 2px;
+            background-color: black;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>booking</title>
+</head>
+<body background="images/index.jpeg">
+<h3>Massage booking</h3>
+<div class="nav3">
+    <ul>
+        <li><a href="home.html">home</a></li>
+        <li><a href="about%20us.html">about us</a></li>
+        <li><a href="contact%20us.html">contact us</a></li>
+        <li><a href="catalogue.html">catalogue</a></li>
+    </ul>
+    <br>
+    <br>
+</div>
+<div class="fom">
+<form action="">
+    <div class="clientdtails">
+    <label for="firstname">First name</label>
+    <input type="text" id="firstname" required><br>
+    </div>
+    <div class="clientdtails">
+    <label for="lasname">Last name</label>
+    <input type="text" id="lasname" required><br>
+    </div>
+    <div class="clientdtails">
+    <label for="phno">phone number</label>
+    <input type="text" id="phno" required><br>
+    </div>
+    <div class="clientdtails">
+    <label for="masstyp">type of massage</label>
+    <select name="masstyp" id="masstyp" required>
+        <option value="full body">full body</option>
+        <option value="deep tissue">deep tissue</option>
+        <option value="swedish">swedish</option>
+        <option value="sports">sports</option>
+        <option value="reflexology">reflexology</option>
+    </select><br>
+    </div>
+    <label for="male">male</label>
+    <input type="radio" id="male"name="gender">
+    <label for="female">female</label>
+    <input type="radio" id="female"name="gender">
+    <label for="neutral">neutral</label>
+    <input type="radio" id="neutral"name="gender"><br>
+    <input type="button"value="book">
+</form>
+</div>
+</body>
+</html>
